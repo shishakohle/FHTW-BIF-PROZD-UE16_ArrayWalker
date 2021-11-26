@@ -119,10 +119,10 @@ int main(void)
 	
 	do
 	{
-			userinput = getUserinput();
-			
-			if (userinput != 'x')
-				moveRobot(myRobot, userinput);
+		userinput = getUserinput();
+		
+		if (userinput != 'x')
+			moveRobot(myRobot, userinput);
 	}
 	while(userinput != 'x');
 	
